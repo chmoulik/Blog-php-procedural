@@ -1,0 +1,225 @@
+body {
+    background-image: url(./images/image_code.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+ul {
+    background-color: #000000d1;
+    padding: 20px;
+    z-index: 1;
+    width: 580px;
+    border-radius: 0px 3px 3px 3px;
+}
+
+nav > ul {
+    position: fixed;
+    top: -16px;
+}
+
+#image {
+    color: #ffffff;
+}
+
+.liNavBar,
+nav li {
+    color: #e9ecf2;
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.liNavBar:hover {
+    background-color: #e9ecf2;
+    color: #9c1616;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+}
+
+.afficheLogin {
+    position: fixed;
+    top: 23px;
+    right: 25%;
+    color: #ededed;
+}
+
+.deconnexion {
+    position: fixed;
+    padding: 3px;
+    top: 10px;
+    right: 50px;
+    background-color: #e9ecf2;
+    color: #9c1616;
+}
+
+.deconnexion:hover {
+    background-color: #9c1616;
+    color: #e9ecf2;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+}
+
+.messageErreur {
+    position: relative;
+    top: 75px;
+    border: red;
+    border-radius: 3px;
+    background-color: #ffd9d9;
+    color: red;
+}
+
+.titreEnregistrement,
+.ajoutFichier {
+    position: relative;
+    top: 100px;
+}
+
+.titreEnregistrement {
+    color: #ffffff;
+    background-color: rgb(156, 22, 22, 0.8);
+    padding: 20px;
+    font-size: medium;
+    border-radius: 3px;
+}
+
+.titreConnexion {
+    color: #ffffff;
+    background-color: rgb(156, 22, 22, 0.8);
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    font-size: medium;
+    border-radius: 3px;
+}
+
+.article {
+    background-color: #e9ecf2;
+    color: #9c1616;
+}
+
+.articles {
+    position: relative;
+    top: 10px;
+    background-color: #ffffff;
+    color: #9c1616;
+    padding: 20px;
+    width: 560px;
+}
+
+.articlesAccueil {
+    position: relative;
+    top: 20px;
+    background-color: #ffffff;
+    color: #9c1616;
+    padding: 20px;
+    width: 580px;
+}
+
+.articleAccueil {
+    background-color: #e9ecf2;
+    position: relative;
+    top: 2px;
+    width: 560px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.article {
+    background-color: #e9ecf2;
+    position: relative;
+    top: 100px;
+    width: 590px;
+    padding: 15px;
+}
+
+#titre {
+    width: 395px;
+    height: 20px;
+    border-radius: 6px;
+}
+#titreCommentaire {
+    width: 550px;
+    height: 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.center-form {
+    position: relative;
+    top: 100px;
+    width: 400px;
+    padding: 100px;
+    border: 1px solid #9c1616;
+    background-color: hsla(0, 0%, 38%, 0.9);
+    border-radius: 5px;
+}
+
+/* les emplacement input ou l'utilisateur ecrit ses informations */
+.input {
+    height: 25px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 2px red;
+}
+
+.boutonConnexion,
+.boutonInscription,
+.boutonEnvoyer {
+    background-color: #9c1616;
+    color: white;
+    padding: 3px 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/* hover bonton inscription et connexion */
+.boutonConnexion:hover,
+.boutonInscription:hover,
+.boutonEnvoyer:hover {
+    border-color: red;
+    transition-duration: 0.4s;
+    border-radius: 2px;
+}
+
+#boutonConnexion,
+#boutonInscription {
+    padding: 3px 5px;
+    margin-left: 10px;
+}
+
+#boutonConnexion:hover,
+#boutonInscription:hover,
+.boutonEnvoyer:hover {
+    background-color: #e9ecf2 !important;
+    border-color: red;
+    transition-duration: 0.4s;
+    border-radius: 2px;
+    color: #9c1616;
+}
+
+.publicationDate {
+    margin-bottom: 60px;
+}
+
+.formCommentaire {
+    margin-bottom: 80px;
+}
+
+.divCommentaire p {
+    display: inline;
+}
+.continuer_a_lire {
+    background-color: #9c1616;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    text-decoration: none;
+}
+/* 
+footer {
+    margin-top: 100vh;
+} */
